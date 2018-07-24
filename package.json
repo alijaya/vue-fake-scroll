@@ -1,14 +1,24 @@
 {
   "name": "fake-scroll",
   "version": "0.1.0",
+  "main": "./dist/fake-scroll.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "private": true,
   "scripts": {
+    "build-bundle": "vue-cli-service build --dest dist --target lib --name fake-scroll ./src/components/index.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.5.16"
+    "vue": "^2.5.16",
+    "vue-resize": "^0.4.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-rc.5",
