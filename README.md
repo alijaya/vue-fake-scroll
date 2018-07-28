@@ -1,4 +1,4 @@
-# fake-scroll
+# vue-fake-scroll
 
 ## Project setup
 ```
