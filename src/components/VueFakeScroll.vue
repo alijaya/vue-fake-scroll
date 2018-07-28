@@ -1,5 +1,5 @@
 <template>
-  <div class="fake-scroll" @scroll="update">
+  <div class="vue-fake-scroll" @scroll="update">
     <ResizeObserver @notify="update"/>
     <div class="scroll-area" :style="{width: scrollWidth+'px', height: scrollHeight+'px'}" />
     <div class="fixed-area" ref="fixed-area">
@@ -12,7 +12,7 @@
 import { ResizeObserver } from 'vue-resize'
 
 export default {
-  name: 'fake-scroll',
+  name: 'vue-fake-scroll',
   components: {
     ResizeObserver
   },
@@ -53,7 +53,7 @@ export default {
 </script>
 
 <style scoped>
-.fake-scroll {
+.vue-fake-scroll {
   position: relative;
   padding: 0;
   margin: 0;

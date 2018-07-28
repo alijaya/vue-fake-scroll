@@ -1,14 +1,14 @@
 {
-  "name": "fake-scroll",
+  "name": "vue-fake-scroll",
   "version": "1.0.0",
   "license": "MIT",
   "main": "./src/components/FakeScroll.vue",
   "files": [
     "dist/*",
-    "src/*"
+    "src/components/*"
   ],
   "scripts": {
-    "build-bundle": "vue-cli-service build --dest dist --target lib --name fake-scroll ./src/components/FakeScroll.vue",
+    "build-bundle": "vue-cli-service build --dest dist --target lib --name vue-fake-scroll ./src/components/VueFakeScroll.vue",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"

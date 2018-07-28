@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <FakeScroll ref="fake-scroll" class="fake-scroll" :scroll-width="2000" :scroll-height="2000" @update="handleUpdate">
+    <VueFakeScroll ref="fake-scroll" class="fake-scroll" :scroll-width="2000" :scroll-height="2000" @update="handleUpdate">
       <div class="content">
         <p class="text">
           scrollLeft: {{scrollLeft}}
@@ -25,17 +25,17 @@
           <br />
         </p>
       </div>
-    </FakeScroll>
+    </VueFakeScroll>
   </div>
 </template>
 
 <script>
-import FakeScroll from './components/FakeScroll'
+import VueFakeScroll from './components/VueFakeScroll'
 
 export default {
   name: 'app',
   components: {
-    FakeScroll,
+    VueFakeScroll,
   },
   data() {
     return {
