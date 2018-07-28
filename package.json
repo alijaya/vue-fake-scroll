@@ -1,6 +1,6 @@
 {
   "name": "vue-fake-scroll",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue Component for creating fake scroll. Sometimes you only need to create scroll area without actually scrolling the content (fixed) and you use the scroll data to move another thing. This is what you need!",
   "keywords": [
     "vue",
