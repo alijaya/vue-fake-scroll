@@ -53,14 +53,14 @@ If you don't use webpack (for example in CodePen etc):
 
 ```html
 <link rel="stylesheet" href="node-modules/vue-fake-scroll/dist/vue-fake-scroll.css" />
-<script src="node-modules/vue-fake-scroll/dist/vue-fake-scroll.common.js"></script>
+<script src="node-modules/vue-fake-scroll/dist/vue-fake-scroll.umd.js"></script>
 ```
 
 or use unpkg
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/vue-fake-scroll/dist/vue-fake-scroll.css" />
-<script src="https://unpkg.com/vue-fake-scroll/dist/vue-fake-scroll.common.js"></script>
+<script src="https://unpkg.com/vue-fake-scroll/dist/vue-fake-scroll.umd.js"></script>
 ```
 
 and then you still need to register it:

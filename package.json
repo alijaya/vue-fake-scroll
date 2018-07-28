@@ -19,7 +19,8 @@
   "main": "./src/components/VueFakeScroll.vue",
   "author": "Ali Jaya Meilio Lie <alijayameilio@gmail.com>",
   "files": [
-    "dist/*"
+    "dist/*",
+    "src/components/*"
   ],
   "scripts": {
     "build-bundle": "vue-cli-service build --dest dist --target lib --name vue-fake-scroll ./src/components/VueFakeScroll.vue",
