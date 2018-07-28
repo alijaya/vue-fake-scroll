@@ -23,6 +23,14 @@ export default {
   mounted() {
     this.update()
   },
+  watch: {
+    scrollWidth() {
+      this.update()
+    },
+    scrollHeight() {
+      this.update()
+    },
+  },
   methods: {
     update() {
       const el = this.$el
