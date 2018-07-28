@@ -47,7 +47,7 @@ export default {
 </script>
 ```
 
-## Not Using Webpack
+### Not Using Webpack
 
 If you don't use webpack (for example in CodePen etc):
 
@@ -146,6 +146,10 @@ export default {
 }
 </script>
 ```
+
+## Example
+
+[See the Demo](https://alijaya.github.io/vue-fake-scroll/) and (the corresponding code)[https://github.com/alijaya/vue-fake-scroll/blob/master/src/App.vue]
 
 ## Caveats
 
