@@ -1,18 +1,23 @@
 {
   "name": "vue-fake-scroll",
-  "version": "1.0.0",
-
+  "version": "1.0.1",
   "description": "Vue Component for creating fake scroll. Sometimes you only need to create scroll area without actually scrolling the content (fixed) and you use the scroll data to move another thing. This is what you need!",
-  "keywords": ["vue", "component", "scroll", "scrolling", "scrollbar", "fake", "scrolljacking", "parallax"],
+  "keywords": [
+    "vue",
+    "component",
+    "scroll",
+    "scrolling",
+    "scrollbar",
+    "fake",
+    "scrolljacking",
+    "parallax"
+  ],
   "license": "MIT",
-
   "homepage": "https://alijaya.github.io/vue-fake-scroll/",
   "bugs": "https://github.com/alijaya/vue-fake-scroll/issues",
   "repository": "github:alijaya/vue-fake-scroll",
   "main": "./src/components/VueFakeScroll.vue",
-
   "author": "Ali Jaya Meilio Lie <alijayameilio@gmail.com>",
-
   "files": [
     "dist/*"
   ],
