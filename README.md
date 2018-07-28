@@ -149,7 +149,7 @@ export default {
 
 ## Example
 
-[See the Demo](https://alijaya.github.io/vue-fake-scroll/) and (the corresponding code)[https://github.com/alijaya/vue-fake-scroll/blob/master/src/App.vue]
+[See the Demo](https://alijaya.github.io/vue-fake-scroll/) and [the corresponding code](https://github.com/alijaya/vue-fake-scroll/blob/master/src/App.vue)
 
 ## Caveats
 
