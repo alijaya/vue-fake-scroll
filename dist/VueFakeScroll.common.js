@@ -481,4 +481,4 @@ module.exports = g;
 /***/ })
 
 /******/ })["default"];
-//# sourceMappingURL=vue-fake-scroll.common.js.map
+//# sourceMappingURL=VueFakeScroll.common.js.map

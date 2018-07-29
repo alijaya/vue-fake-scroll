@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["vue-fake-scroll"] = factory();
+		exports["VueFakeScroll"] = factory();
 	else
-		root["vue-fake-scroll"] = factory();
+		root["VueFakeScroll"] = factory();
 })(typeof self !== 'undefined' ? self : this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -491,4 +491,4 @@ module.exports = g;
 
 /******/ })["default"];
 });
-//# sourceMappingURL=vue-fake-scroll.umd.js.map
+//# sourceMappingURL=VueFakeScroll.umd.js.map

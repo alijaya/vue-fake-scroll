@@ -23,7 +23,7 @@
     "src/components/*"
   ],
   "scripts": {
-    "build-bundle": "vue-cli-service build --dest dist --target lib --name vue-fake-scroll ./src/components/VueFakeScroll.vue",
+    "build-bundle": "vue-cli-service build --dest dist --target lib --name VueFakeScroll ./src/components/VueFakeScroll.vue",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
