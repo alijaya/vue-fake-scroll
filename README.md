@@ -6,7 +6,7 @@ Vue Component for creating fake scroll. Sometimes you only need to create scroll
 
 ## Installation
 
-```npm
+```bash
 npm install --save vue-fake-scroll
 ```
 
